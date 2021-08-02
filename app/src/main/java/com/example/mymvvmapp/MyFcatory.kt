@@ -6,7 +6,7 @@ import java.lang.IllegalArgumentException
 
 @Suppress("UNCHECKED_CAST")
 class MyFcatory() :ViewModelProvider.Factory {
-    
+
 
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(MyViewModel::class.java)) {
