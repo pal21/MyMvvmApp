@@ -9,7 +9,7 @@ import java.util.logging.Level.INFO
 
 class MyViewModel() : ViewModel() {
 
-     var myanme :String? = "I love Cap"
+     var myanme :String? = "Loki"
      init {
          Log.i("PAYAL", "what is my name ")
      }
